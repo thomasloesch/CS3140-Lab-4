@@ -1,3 +1,11 @@
+html, body, div, table, tr, th, td, span, h1, h2, p {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
 header{
 	text-align: center;
 	font-family: sans-serif;
@@ -5,71 +13,12 @@ header{
 }
 
 div[id=scores] div {
-	height: 30%;
+	text-align: center;
 }
 
 table{
-	bottom: ;
-	border-collapse: collapse;
-	text-align: center;
-	float: left;
-	font-family: sans-serif;
-	height: 100%;
+	display: inline-table;
+	border-style: thin solid red;
+	width: 20%;
 }
 
-div[id="quarterfinals"] {
-	position: absolute;
-	left: 20%;
-	width: 60%;
-}
-
-div[id="quarterfinals"] table {
-	width: 25%;
-}
-
-div[id="semifinals"] {
-	position: absolute;
-	left: 35%;
-	width: 30%;
-}
-
-div[id="semifinals"] table {
-	width: 50%;
-}
-
-div[id="finals"] {
-	position: absolute;
-	left: 42.5%;
-	width: 15%;
-}
-
-div[id="finals"] table {
-	width: 100%;
-}
-
-thead th {
-	background-color: #2EB8E6;
-	font-size: 0.75em;
-}
-
-tbody td {
-	width: 50%;
-}
-
-tfoot td {
-	background-color: #FF9933;
-}
-
-td {
-	padding: 5pt;
-
-}
-
-th {
-	padding: 5pt;
-}
-
-td b {
-	font-family: serif;
-	font-size: 1.4em;
-}
