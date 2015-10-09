@@ -1,0 +1,75 @@
+header{
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+}
+
+div[id=scores] div {
+	height: 30%;
+}
+
+table{
+	bottom: ;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+	font-family: sans-serif;
+	height: 100%;
+}
+
+div[id="quarterfinals"] {
+	position: absolute;
+	left: 20%;
+	width: 60%;
+}
+
+div[id="quarterfinals"] table {
+	width: 25%;
+}
+
+div[id="semifinals"] {
+	position: absolute;
+	left: 35%;
+	width: 30%;
+}
+
+div[id="semifinals"] table {
+	width: 50%;
+}
+
+div[id="finals"] {
+	position: absolute;
+	left: 42.5%;
+	width: 15%;
+}
+
+div[id="finals"] table {
+	width: 100%;
+}
+
+thead th {
+	background-color: #2EB8E6;
+	font-size: 0.75em;
+}
+
+tbody td {
+	width: 50%;
+}
+
+tfoot td {
+	background-color: #FF9933;
+}
+
+td {
+	padding: 5pt;
+
+}
+
+th {
+	padding: 5pt;
+}
+
+td b {
+	font-family: serif;
+	font-size: 1.4em;
+}
