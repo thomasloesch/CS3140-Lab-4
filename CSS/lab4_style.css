@@ -6,10 +6,26 @@ html, body, div, table, tr, th, td, span, h1, h2, p {
     vertical-align: baseline;
 }
 
+html {
+	font-family: sans-serif;
+}
+
 header{
 	text-align: center;
-	font-family: sans-serif;
 	margin-bottom: 50px;
+}
+
+body {
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 1em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 div[id=scores] div {
@@ -18,7 +34,24 @@ div[id=scores] div {
 
 table{
 	display: inline-table;
-	border-style: thin solid red;
+	border: thin solid darkred;
+	border-collapse: collapse;
 	width: 20%;
+}
+
+td{
+	width: 50%;
+	padding: 0.5em;
+}
+
+.loser {
+	font-size: 1.5em;
+	background-color: lightgrey;
+}
+
+.winner {
+	font-size: 2em;
+	font-weight: bold;
+	background-color: grey;
 }
 
