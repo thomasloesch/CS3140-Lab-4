@@ -12,7 +12,6 @@ html {
 
 header{
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 body {
@@ -21,15 +20,56 @@ body {
 
 h1 {
 	font-size: 2em;
-	margin: 1em;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-size: 1.5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 div[id=scores] div {
 	text-align: center;
+}
+
+div[id=columns] div {
+	width: 33%;
+}
+
+.one ul {
+	list-style-type: square;
+}
+
+.one ol {
+	list-style-type: hebrew;
+}
+
+.two ul {
+	list-style-type: circle;
+}
+
+.two ol {
+	list-style-type: lower-greek;
+}
+
+.three ul {
+	list-style-type: none;
+}
+
+.three ol {
+	list-style-type: upper-roman;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 1.3em;
+}
+
+img {
+	margin: 10px;
 }
 
 table{
@@ -71,3 +111,28 @@ tfoot th, .team {
 	background-color: grey;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.one {
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two {
+	background-color: lightgrey;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.three {
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+}
