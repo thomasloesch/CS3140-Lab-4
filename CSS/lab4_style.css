@@ -7,7 +7,7 @@ html, body, div, table, tr, th, td, span, h1, h2, p {
 }
 
 html {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -45,9 +45,17 @@ td{
 	padding: 0.5em;
 }
 
-.team {
+th {
 	font-size: 0.8em;
-	height: 2em;
+	padding: 0.5em;
+	vertical-align: center;
+}
+
+tfoot td {
+	background-color: grey;
+}
+
+tfoot th, .team {
 	background-color: #FF944D;
 }
 
@@ -57,6 +65,7 @@ td{
 }
 
 .winner {
+	font-family: Georgia, serif;
 	font-size: 2em;
 	font-weight: bold;
 	background-color: grey;
