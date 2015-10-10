@@ -37,11 +37,18 @@ table{
 	border: thin solid darkred;
 	border-collapse: collapse;
 	width: 20%;
+	margin: 0.5em;
 }
 
 td{
 	width: 50%;
 	padding: 0.5em;
+}
+
+.team {
+	font-size: 0.8em;
+	height: 2em;
+	background-color: #FF944D;
 }
 
 .loser {
